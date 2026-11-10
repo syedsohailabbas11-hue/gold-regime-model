@@ -1,0 +1,19 @@
+# Environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets and keys  (Pitfall #13 — never commit keys or licensed data)
+.env
+*.key
+
+# Data is not committed: it is downloaded by src/data_download.py.
+# (Check each source's licence before redistributing — ReadMe/Data tabs.)
+data/raw/
+data/processed/
+
+# OS / editor
+.DS_Store
+.vscode/

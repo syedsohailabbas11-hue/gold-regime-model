@@ -1,0 +1,3 @@
+Run,Description,Regimes_k,CAGR,Sharpe,MaxDD,TimeInMkt,Verdict,Features,Train,Test,Cost,Sharpe_vs_BH
+Buy & hold,hold gold over TEST period,1,0.06072040387779554,0.46874205612873565,-0.2064140823295053,1.0,benchmark,,,,,
+1,"3 regimes, k-means, long when train mean>0",3,0.014452907205284804,0.182464799639444,-0.15595329658212798,0.4202827888834715,No edge after costs,"vol_20,ry_chg_20,usd_chg_20,vix_level",2006-01-31..2019-01-01,2019-01-01..2026-11-10,0.0005,-0.28627725648929164
